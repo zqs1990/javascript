@@ -1,0 +1,20 @@
+header.shopHeader{width: 100%;background: url(../images/wallet/profile-background.png) no-repeat left bottom;height:5rem;background-size: 100%;box-shadow: 0 2px 16px 0 rgba(169, 48, 48, 0.5);z-index: 100;position: relative;}
+.searchMall{float: right;width: 16rem;height: 2.5rem;background: url(../images/mall/mall_search.png) no-repeat  #ff897d 0.6rem 0.4rem;background-size:1.6rem;border-radius: 100px;border: 0;padding-left: 2.5rem;margin-right: 1rem;margin-top: 1.2rem;color: #fff;}
+input::-webkit-input-placeholder{color: #fff;font-size: 1.2rem;}
+section{width: 100%;padding: 0 4.1%;float: left;}
+.mallNav{margin-top: -2.4rem;background:#e24737;padding: 0.9rem 0;float: left;z-index: 10000;box-shadow: 0 3px 19px 0 rgba(222, 162, 162, 0.5);position: relative;height: 4.8rem;width: 100%;line-height: 3rem;}
+.mallNav a{float: left;display: block;color: #fff;text-align: center;width: 33.33%;}
+.mallNav a span{display: inline-block;width:1.6rem;height: 2rem;margin-right: 0.6rem;margin-bottom: -0.5rem;}
+.mallNav a:nth-child(1) span{background: url(../images/mall/mallclassification.png) no-repeat;background-size:100%;}
+.mallNav a:nth-child(2){border-left:1px solid #fb8579;border-right:1px solid #fb8579;}
+.mallNav a:nth-child(2) span{background: url(../images/mall/mallcart.png) no-repeat;background-size:90%;}
+.mallNav a:nth-child(3) span{background: url(../images/mall/mallmyorders.png) no-repeat;background-size:100%;}
+.listMall{width: 100%;float: left; overflow: hidden;margin-top: 1.6rem;}
+.mallDt{height: 3rem;line-height: 3rem;width: 100%;}
+.mallDt a{float: right;}
+.mallDt a img{width:2.6rem;margin-top:1.5rem;}
+.mallDt strong{color: #df5648;display: inline-block;padding-right: 1rem;height: 2rem;line-height: 2rem;margin-top: 1rem;font-weight:600;}
+.mallDt img.festivalLogo{width:8.4rem;border-left: 1px solid #ddd;padding-left: 1rem;margin-top: -0.2rem;}
+.listMall dd a.mall_active_pic{width: 100%;margin: 1.6rem 0;display: inline-block;float: left;}
+.listMall dd ul li{width: calc((100% - 2rem)/3);margin-left: 1rem;float: left;}
+.listMall dd ul li:first-child{margin-left:0;}

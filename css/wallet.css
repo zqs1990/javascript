@@ -1,0 +1,136 @@
+header {
+	width: 100%;
+	background: url(../images/wallet/profile-background.png) no-repeat left bottom #f36354;
+	background-size: 100% auto;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	padding: 3rem 0 2rem;
+	box-shadow: 0 2px 16px 0 rgba(169, 48, 48, 0.5);
+	float: left;
+	min-height: 20rem;
+}
+
+.rightTop {
+	position: absolute;
+	right: 1rem;
+	top: 1rem;
+}
+
+.rightTop img {
+	width: 1.4rem;
+	margin-top: -0.2rem;
+}
+
+.rightTop p {
+	color: #fff;
+	font-weight: 500;
+	line-height: 2rem;
+}
+
+#userPic {
+	width: 16.5%;
+	height: 16.5%;
+	border-radius: 50%;
+	margin-bottom:0.5rem;
+}
+
+header p {
+	line-height: 2rem;
+	color: #fff;
+	font-size: 1.3rem;
+	font-weight: 300;
+}
+
+header h3 {
+	font-size: 2rem;
+	color: #fff;
+	font-weight: 300;
+	line-height: 3rem;
+}
+
+header p.fontWeight {
+	font-weight: 500;
+	font-size: 1.4rem;
+}
+
+section {
+	width: 100%;
+	padding: 0 4.1%;
+	float: left;
+}
+
+.wallerDt {
+	width: 100%;
+	height: 3rem;
+}
+
+.wallerDt div {
+	float: right;
+	width: 36%;
+}
+
+.wallerDt div img {
+	width: calc(50% - 0.4rem);
+	margin-left:0.4rem;
+}
+
+.wallerDt strong {
+	font-weight: 500;
+	color: #2a2a2a;
+	padding-top: 0.5rem;
+	display: inline-block;
+}
+
+#mycard {}
+
+.swiper-container {
+	width: 100%;
+	margin-top:0.8rem;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	width: 80%;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.myCardList li{background: url(../images/wallet/card_bar_bg.png) no-repeat;background-size:100% 100%;width: 100%;float: left;margin-top: 1rem;}
+#firstLine{padding:6% 4%;overflow: hidden;}
+#mycardList1{ background: url(../images/wallet/mycardslist1.png) no-repeat; width: 2.1rem;display: inline-block;height:1.75rem;background-size:100% ; margin-right: 0.5rem;margin-bottom: -0.2rem}
+.rightGo{background: url(../images/wallet/cardrightarrow.png) no-repeat;background-size:100% ;width:0.6rem;height:1.1rem;display: block;float: right;margin-top: 0.5rem;}
+#secondLine{padding:5.1% 4%;overflow: hidden;}
+#secondLine div{float: right;}
+#secondLine div img{width:2rem;}
+#mycardList2{ background: url(../images/wallet/mycardshotlist.png) no-repeat; width: 2.1rem;display: inline-block;height:2.3rem;background-size:100% ; margin-right: 0.5rem;margin-bottom: -0.3rem;}
+#secondLine div span{color: #727272;display: inline-block;padding-left: 0.3rem;}
+#secondLine div span.rightGo{margin-left: 0.5rem;}
+#secondLine div img{margin-left: -0.3rem;}
+#secondLine div img:nth-child(1){z-index: 10;}
+#secondLine div img:nth-child(2){z-index: 9;}
+#secondLine div img:nth-child(3){z-index: 8;}
+#secondLine div img:nth-child(4){z-index: 7;}
+#secondLine div img:nth-child(5){z-index: 6;}
+@meida(min-width:415px){
+
+}
+
+@media only screen and (width:768px ) {
+.wallerDt div{width: 20%;}
+}
+@media only screen and (min-width:1024px ) {
+.wallerDt div{width:15rem;}
+}

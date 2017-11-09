@@ -1,0 +1,81 @@
+header{width: 100%;background: url(../images/wallet/profile-background.png) no-repeat left bottom;height:5rem;background-size: 100%;box-shadow: 0 2px 16px 0 rgba(169, 48, 48, 0.5);z-index: 100;position: relative;}
+header a img{width:11%;float: right; margin-top:2%;margin-right: 1rem;}
+section{width: 100%; overflow: hidden;float: left;}
+.tabs{width: 100%;background: #fff;padding-top: 2rem;overflow: hidden;}
+.tabs-header{width:80%;box-shadow: 0 2px 12px 0 rgba(247, 204, 204, 0.5);height: 4rem;line-height: 4rem;margin:0 10%;}
+.tabs-header li{width: 50%;text-align: center;float: left;}
+.tabs-header li a{text-indent:3rem;color: #887c7c;font-weight: 600;display: inline-block;}
+.tabs-header li a:link,.tabs-header li a:active,.tabs-header li a:visited{background: none;}
+.tabs-header li.active{box-shadow: 0 2px 12px 0 rgba(247, 204, 204, 0.5);}
+.tabs-header li:nth-child(1) a{background: url(../images/cardchange/exchange_pointsicon1.png) no-repeat 0rem 1.4rem;background-size:2rem ;}
+.tabs-header li:nth-child(1).active a{background: url(../images/cardchange/exchange_pointsicon.png) no-repeat 0rem 1.4rem;background-size:2rem ;color: #df5648;}
+.tabs-header li:nth-child(2) a{background: url(../images/cardchange/exchange_cardsicon1.png) no-repeat 0rem 1.4rem;background-size:2rem ;}
+.tabs-header li:nth-child(2).active a{background: url(../images/cardchange/exchange_cardsicon.png) no-repeat 0rem 1.4rem;background-size:2rem ;color: #df5648;}
+.tabs-content{width: 100%;padding-top: 1.5rem;}
+.exchangeTitle{width:80%; height:4rem;line-height:4rem;float: left;margin:0 10%;}
+.exchangeTitle strong{font-weight:500;font-size: 1.5rem;color: #a2a2a2;}
+.exchangeTitle a{float: right;color: #e74c3c;font-weight:500;font-size: 1.5rem;}
+.changePic{width:80%;float: left;margin: 1rem 10% 2rem;}
+.tab{display: none;padding-bottom: 1rem;}
+.tab.active{display: block;}
+.exchangeTitle span{float: right;color: #a2a2a2;font-size: 1.5rem;font-weight:600;}
+.exchangeTitle span font{color: #e74c3c;padding: 0 0.3rem;display: inline-block;}
+.changeBottom{width: 100%;background:#fbf4f3;float: left;overflow: hidden;padding-top: 1rem;}
+.changeCount{background: #fff;overflow: hidden;float: left;width: 100%;padding-top: 1.5rem;}
+.listChangeCount{width: 80%;margin: 0 10%;float: left;padding: 1rem 0 3rem;}
+.count-par-1{width:70%;float: left;padding: 0 1rem;border-radius: 6px;background-color: #f6f6f6;height: 4rem;line-height: 4rem;}
+.count-par-1 span{float: right;font-size: 1.4rem;font-weight: 600;color: #999;}
+.count-par-1 span font{color:#df5648;display: inline-block;padding: 0 0.3rem;}
+.count-par-1 strong{color: #999;font-weight: 600;}
+.count-par-2{float: left;width: 30%;}
+.count-par-2 a{display: inline-block;float: left;width:calc(50% - 1rem);margin-left:1rem;}
+.count-par-2 a img{height: 4rem;float: left;width: auto;}
+.count-par-1 input:focus{border: none;background: none;}
+.exicon{width: 100%; float: left;text-align: center;}
+.exiconjf{width: 80%; float: left;padding-left: 2rem;color:#757575;margin:0 10%;}
+.exiconjf font{color: #e74c3c;font-size: 1.8rem;padding: 0 0.5rem;display: inline-block;}
+.exiconjf a{color: #8a251a;font-size: 1.2rem;text-decoration: underline;display: inline-block;padding-left: 0.5rem;}
+.exiconjf img{width:2.5rem;margin-right: 1rem;}
+.exicon img{width:2.5rem}
+.margin-top--16{margin-top: -3rem;}
+.textExchange{width: 80%;height: 4rem;border-radius: 6px;background-color: #f6f6f6;margin:2rem 10% 1rem;border:none;padding:0.5rem 1rem;}
+
+ /*兑换记录样式*/ 
+.recordTitle{width: 100%;padding: 0 1rem;color: #2a2a2a;font-weight: 400;font-size: 1.5rem;height: 2rem;line-height:2rem;float: left;}
+.listRecord{width: 100%;background: #fff;padding: 1rem; margin-top: 1.6rem;float: left;overflow: hidden;}
+.listRecord p{width: 50%;float: left;line-height: 3rem;color: #000;font-weight: 400;}
+.listRecord p:nth-child(2n+1){text-align: right;}
+.listRecord p font{color: #ff3535;}
+.recordTime{width: 100%;border-bottom: 1px solid #e9e9e9;padding:0rem 0 1rem;color: #979797;font-weight: normal;margin-bottom: 0.5rem;}
+.recordTitle.couponTitle{width: 100%;padding: 0 4.1%;margin-bottom:1.5rem;margin-top:2.5rem}
+.couponPic{width: 100%;padding: 0 4.1%; margin-top: 1rem;float: left;}
+.couponPic img{width: 100%;}
+
+ /*绑定会员卡样式*/ 
+ .bindCard{width: 100%;float: left;background:rgba(255, 255, 255, 0.8);overflow: hidden;padding: 0 4.1%;margin-bottom: 1rem;}
+.bindContent{width:100%;background-color: #e74c3c;border-radius: 8px 8px 8px 8px;box-shadow: 0 4px 0 0 #b23a2e, 0 2px 4px 0 rgba(152, 47, 47, 0.5), inset 0 2px 4px 0 rgba(255, 155, 155, 0.5);;color: #FFFFFF;display: block;font-size: 1.8rem;margin:1.5rem 0 2rem;border: 0;height: 4rem;float: left;line-height:3.8rem;padding: 0 1rem;}
+.bindContent .rightBind{float: right;}
+.bindContent .rightBind img{width:1.8rem;background:#fff;padding:0.2rem;border-radius: 1.8rem;margin-left: -0.5rem;position: relative;}
+.bindContent .rightBind img:nth-child(1){z-index: 10;}
+.bindContent .rightBind img:nth-child(2){z-index: 9;}
+.bindContent .rightBind img:nth-child(3){z-index: 8;}
+.bindContent .rightBind img:nth-child(4){z-index:7;}
+.bindContent .rightBind img:nth-child(5){z-index: 6;}
+.bindContent .rightBind span{width: 0.6rem;background: url(../images/memberlist_rightarrow.png) no-repeat;background-size:100%;height: 1.2rem;display: inline-block;margin-bottom:-0.2rem;margin-left: 0.5rem;}
+.bindContent strong{font-weight: 400;font-size: 1.5rem;}
+.memberList{margin-bottom: 1rem;}
+@media only screen and (width:768px ) {
+header a img{width:8%;margin-top: 0rem;}
+}
+@media only screen and (min-width:1024px ) {
+header a img{width:5rem;margin-top:0.3rem;}
+}
+.quotaHead{width: 100%;padding:1rem 4.1%;float: left;}
+.quotaHead p{width:50%;float: left;height: 2rem;line-height:2rem;color: #2a2a2a;}
+.quotaHead p font{color:#df5648 ;}
+.quotaHead p:nth-child(2n){text-align: right;}
+.listQuota{width: 100%;background: #fff; padding:2rem 4.1%;float: left;margin-top: 1rem;}
+.listQuota p{width: 50%;float: left;font-weight: 400;}
+.listQuota p.alignRight{text-align: right;}
+.listQuota p.alignRight font{color:#df5648 ;}
+.listQuota p:last-child{padding-left: 2rem;}

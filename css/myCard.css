@@ -1,0 +1,51 @@
+header.profileHead {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	z-index: 1;
+	background: url(../images/wallet/profile-background.png) no-repeat left bottom #f36354;
+	background-size: 100% auto;
+	box-shadow: 0 2px 16px 0 rgba(169, 48, 48, 0.5);
+	min-height: 20rem;
+	position: relative;
+	text-align: center;
+	padding: 3rem 0 2rem;
+}
+
+.rightIcon {
+	position: absolute;
+	right: 1rem;
+	top: 1rem;
+	width: 2.2rem;
+}
+
+.rightIcon img {
+	width: 1.6rem;
+}
+.rightIcon span{width: 0.5rem;height: 0.5rem;border-radius: 0.6rem;display: block;background: #f5c957;float: right;}
+
+.userPic {
+	width: 16.5%;
+	height: 16.5%;
+	border-radius: 50%;
+	margin-bottom: 0.5rem;
+}
+.user_name{color: #fff;font-weight: 500;line-height: 3rem;}
+.SeniorUser{width:16%;margin-top:0.5rem;}
+.profileNav{width:calc(100% - 4.1%*2);float: left;z-index: 10;margin-top: -2.7rem;background: #fff; height:4.8rem;position: relative;margin-left: 4.1%;line-height: 2.8rem;padding: 1rem 0;}
+.profileNav a{display: block;float: left;text-indent:3.2rem;text-align: center;color: #696969;}
+.profileNav a:nth-child(1){background: url(../images/profile/profilemyorders.png) no-repeat 13% 0.6rem;background-size:1.8rem ;width: 32%;}
+.profileNav a:nth-child(2){background: url(../images/profile/profilemyexchanges.png) no-repeat 13% 0.4rem;background-size:1.4rem ;border-right:1px solid #f1f1f1;border-left:1px solid #f1f1f1;text-indent:3rem;width:36%;}
+.profileNav a:nth-child(3){background: url(../images/profile/profilemyapplications.png) no-repeat 13% 0.6rem;background-size:1.8rem ;width: 32%;}
+.profileSection{width: 100%;float: left;padding: 0 4.1%;}
+.listProfile{width: 100%;background:rgba(255,255,255,0.1);overflow: hidden;box-shadow: 0 2px 12px 0 rgba(247, 204, 204, 0.8);border-radius:0.4rem;}
+.listProfile li{height: 5rem;line-height: 5rem;width: 100%;float: left;border-bottom: 1px solid #eae4e4;padding: 0 4%;color: #545454;}
+.listProfile li span.rightBtn{background:url(../images/wallet/cardrightarrow.png) no-repeat;background-size:0.6rem ;float: right;width:0.6rem;display: block;height: 1rem;margin-top:2rem;}
+.listProfile li:nth-child(3){border-bottom: none;}
+.icon_1{background:url(../images/profile/profileaddress.png) no-repeat;background-size:1.4rem ;width: 1.4rem;display: inline-block;height: 2rem;margin-right:0.8rem; margin-top: 1.6rem;float: left;}
+.icon_2{background:url(../images/profile/profileinfo.png) no-repeat;background-size:1.6rem ;width: 1.6rem;display: inline-block;height: 2rem;margin-right:0.6rem; margin-top: 1.8rem;float: left;}
+.icon_3{background:url(../images/profile/profileinterests.png) no-repeat;background-size:1.6rem ;width: 1.6rem;display: inline-block;height: 2rem;margin-right:0.6rem; margin-top: 2rem;float: left;}
+.icon_4{background:url(../images/profile/profilecustomservice.png) no-repeat;background-size:1.6rem ;width: 1.6rem;display: inline-block;height: 2rem;margin-right:0.6rem; margin-top: 2rem;float: left;}
+.icon_5{background:url(../images/profile/profileabout.png) no-repeat;background-size:1.6rem ;width: 1.6rem;display: inline-block;height: 2rem;margin-right:0.6rem; margin-top: 2rem;float: left;}
+.icon_6{background:url(../images/profile/profileterms.png) no-repeat;background-size:1.6rem ;width: 1.6rem;display: inline-block;height: 2rem;margin-right:0.6rem; margin-top: 2rem;float: left;}
+#profileButton{width: calc(100% - 4.1%*2);margin:1.5rem 4.1% 3rem;}
